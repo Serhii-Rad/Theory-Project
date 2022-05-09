@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31019.35
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theory Project", "Theory Project.csproj", "{36D5838C-01F2-4570-981D-65B3B339D8F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theory Project", "Theory Project.csproj", "{36D5838C-01F2-4570-981D-65B3B339D8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncTheory", "..\AsyncTheory\AsyncTheory.csproj", "{BA87FCCA-BA1B-4553-A825-BD9612D61409}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{36D5838C-01F2-4570-981D-65B3B339D8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36D5838C-01F2-4570-981D-65B3B339D8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36D5838C-01F2-4570-981D-65B3B339D8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA87FCCA-BA1B-4553-A825-BD9612D61409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA87FCCA-BA1B-4553-A825-BD9612D61409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA87FCCA-BA1B-4553-A825-BD9612D61409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA87FCCA-BA1B-4553-A825-BD9612D61409}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
