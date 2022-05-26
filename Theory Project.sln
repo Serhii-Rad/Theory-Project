@@ -20,7 +20,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MouseEmulation", "..\MouseE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumStaff", "..\SeleniumStaff\SeleniumStaff.csproj", "{FBB5AA96-C176-4A29-8988-947823C947E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnyTestCases", "..\AnyTestCases\AnyTestCases.csproj", "{525806B2-3EDC-4AE8-B9E6-83766921AEA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnyTestCases", "..\AnyTestCases\AnyTestCases.csproj", "{525806B2-3EDC-4AE8-B9E6-83766921AEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarProject", "..\CarProject\CarProject.csproj", "{0181E1A2-C72A-4EAA-B013-F94287551B4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +58,10 @@ Global
 		{525806B2-3EDC-4AE8-B9E6-83766921AEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{525806B2-3EDC-4AE8-B9E6-83766921AEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{525806B2-3EDC-4AE8-B9E6-83766921AEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0181E1A2-C72A-4EAA-B013-F94287551B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0181E1A2-C72A-4EAA-B013-F94287551B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0181E1A2-C72A-4EAA-B013-F94287551B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0181E1A2-C72A-4EAA-B013-F94287551B4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
