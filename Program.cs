@@ -274,8 +274,6 @@ namespace Theory_Project
                 typeOfWheels = "Universal";
             }
         }
-
-
     }
 }
 
