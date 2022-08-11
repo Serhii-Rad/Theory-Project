@@ -26,7 +26,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarProject", "..\CarProject
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "..\Delegates\Delegates.csproj", "{6CD9A06F-9743-491E-AAC3-C63C9E1EDC9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "..\Events\Events.csproj", "{0F732738-4E1E-40F5-9FB9-F88452B71974}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events", "..\Events\Events.csproj", "{0F732738-4E1E-40F5-9FB9-F88452B71974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfAPI", "..\SelfAPI\SelfAPI.csproj", "{AF060F91-8FE3-4C22-A6DF-007768DDFE02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,10 @@ Global
 		{0F732738-4E1E-40F5-9FB9-F88452B71974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F732738-4E1E-40F5-9FB9-F88452B71974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F732738-4E1E-40F5-9FB9-F88452B71974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF060F91-8FE3-4C22-A6DF-007768DDFE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF060F91-8FE3-4C22-A6DF-007768DDFE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF060F91-8FE3-4C22-A6DF-007768DDFE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF060F91-8FE3-4C22-A6DF-007768DDFE02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,13 +12,10 @@ namespace Theory_Project
             EventClass ev = new EventClass();
             ev.CreateCarEvent += MethodForEvent;
 
-            using StreamWriter sw = new StreamWriter(@"C:\Users\radch\OneDrive\Рабочий стол\CarLog.txt", true);
-            sw.WriteLine("Some actions");
-            sw.Close();
-
+            CreateTextFileAndWriteText(@"C:\Users\radch\OneDrive\Рабочий стол\CarLog.txt", "Some actions");
         }
 
-        public static void CreateTextFileAndWriteText(string filePath, string text)
+        public static void CreateTextFileAndWriteText(string filePath, string text, bool append = true)
         {
             using StreamWriter sw = new StreamWriter(filePath, true);
             sw.WriteLine(text);
@@ -32,9 +29,6 @@ namespace Theory_Project
             Console.ResetColor();
         }
     }
-
-   
-
     public class EventClass
     {
         public event MyDelegate CreateCarEvent;
