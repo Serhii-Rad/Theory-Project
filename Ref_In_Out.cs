@@ -21,7 +21,7 @@ namespace Theory_Project
             Increment(number);
             Console.WriteLine($"Число после метода Increment: {number}");
             //Число до метода Increment: 5
-            //исло в методе Increment: 6
+            //число в методе Increment: 6
             //Число после метода Increment: 5
 
             //При передаче аргументов параметрам по значению параметр метода получает не саму переменную,
