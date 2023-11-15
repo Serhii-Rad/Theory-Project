@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theory Project", "Theory Project.csproj", "{36D5838C-01F2-4570-981D-65B3B339D8F4}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{466A7E3B-9A9C-46CF-BAA5-073149D5A19E}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
@@ -28,16 +26,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MouseEmulation", "MouseEmul
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumStaff", "SeleniumStaff\SeleniumStaff.csproj", "{2D1BC732-D1F0-4DC4-8728-4F13F5BB56F3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theory Project", "Theory Project\Theory Project.csproj", "{CB171EB5-51A4-4589-999C-7794B41C6AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP_Connection", "TCP_Connection\TCP_Connection.csproj", "{3FDFEC18-A0EB-4E75-AFA0-60212303FF0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36D5838C-01F2-4570-981D-65B3B339D8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36D5838C-01F2-4570-981D-65B3B339D8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36D5838C-01F2-4570-981D-65B3B339D8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36D5838C-01F2-4570-981D-65B3B339D8F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4894FC6A-7ABB-4CD6-91E0-6B1BD03AAE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4894FC6A-7ABB-4CD6-91E0-6B1BD03AAE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4894FC6A-7ABB-4CD6-91E0-6B1BD03AAE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -74,6 +72,14 @@ Global
 		{2D1BC732-D1F0-4DC4-8728-4F13F5BB56F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D1BC732-D1F0-4DC4-8728-4F13F5BB56F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D1BC732-D1F0-4DC4-8728-4F13F5BB56F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB171EB5-51A4-4589-999C-7794B41C6AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB171EB5-51A4-4589-999C-7794B41C6AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB171EB5-51A4-4589-999C-7794B41C6AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB171EB5-51A4-4589-999C-7794B41C6AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDFEC18-A0EB-4E75-AFA0-60212303FF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDFEC18-A0EB-4E75-AFA0-60212303FF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDFEC18-A0EB-4E75-AFA0-60212303FF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDFEC18-A0EB-4E75-AFA0-60212303FF0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
