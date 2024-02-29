@@ -9,8 +9,8 @@ namespace Delegates
     public delegate void AccountHandler(string message);
     public class Account
     {
-        int sum;
-        AccountHandler? taken;
+        private int sum;
+        private AccountHandler? taken;
         public Account(int sum) => this.sum = sum;
         // Регистрируем делегат
         /// <summary>
