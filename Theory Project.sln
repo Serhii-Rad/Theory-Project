@@ -30,6 +30,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theory Project", "Theory Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP_Connection", "TCP_Connection\TCP_Connection.csproj", "{3FDFEC18-A0EB-4E75-AFA0-60212303FF0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkProject", "EntityFrameworkProject\EntityFrameworkProject.csproj", "{BEBDC308-47D1-4D42-968B-F6A08574F817}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,10 @@ Global
 		{3FDFEC18-A0EB-4E75-AFA0-60212303FF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FDFEC18-A0EB-4E75-AFA0-60212303FF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FDFEC18-A0EB-4E75-AFA0-60212303FF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEBDC308-47D1-4D42-968B-F6A08574F817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEBDC308-47D1-4D42-968B-F6A08574F817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEBDC308-47D1-4D42-968B-F6A08574F817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEBDC308-47D1-4D42-968B-F6A08574F817}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
